@@ -5,7 +5,7 @@ import streamlit as st
 
 model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-st.title('Prediksi Diabetes')
+st.title('Prediksi Diabetes \n Arya Ramdhan Dwi Cahya 210040203')
 
 Pregnancies = st.text_input ('Jumlah kehamilan')
 
